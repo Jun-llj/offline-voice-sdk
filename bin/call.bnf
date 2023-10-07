@@ -1,0 +1,9 @@
+﻿#BNF+IAT 1.0 UTF-8;
+!grammar call;
+
+!slot <dialpre>;
+
+!start <callstart>;
+<callstart>:<dialpre>;
+
+<dialpre>:kitchen|bedroom|bathroom|handwash|biscuit|bread|water|yes|no|cola|lays|shampoo|dishsoap|sprite|lip|a|b|c|am;
